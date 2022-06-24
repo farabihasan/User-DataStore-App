@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#preloder {
+    height: 100vh;
+    width: 100%;
+    background: url(https://cdn.dribbble.com/users/1148781/screenshots/3233207/bold-preloader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: fixed;
+    background-color: rgb(17, 15, 15);
+    background-size: 180px;
+}
+
+.container {
+    background-color: rgb(165, 176, 185);
+    height: 100vh;
+    width: 100%;
+}
+
+.nav {
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    padding: 40px;
+    line-height: 2rem;
+    font-family: Georgia;
+}
+
+#btn {
+    padding: 2px 7px;
+    background-color: rgb(186, 28, 28);
+    border: none;
+    border-radius: 2px;
+    color: white;
+    text-transform: uppercase;
+}
+
+#btn:hover {
+    background-color: transparent;
+    color: black;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
